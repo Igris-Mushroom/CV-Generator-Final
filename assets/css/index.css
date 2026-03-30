@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.subcontainer {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.left.group,
+.rightgroup {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn-generate {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-generate:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.entry {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
